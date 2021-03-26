@@ -9,6 +9,8 @@
     "docker:migration-run": "docker exec rentx yarn typeorm migration:run"
   },
   "dependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "bcryptjs": "^2.4.3",
     "csv-parse": "^4.15.3",
     "express": "^4.17.1",
     "multer": "^1.4.2",
