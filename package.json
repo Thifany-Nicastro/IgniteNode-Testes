@@ -8,7 +8,8 @@
     "typeorm": "ts-node-dev -r tsconfig-paths/register ./node_modules/typeorm/cli",
     "docker:migration-run": "docker exec rentx yarn typeorm migration:run",
     "test": "jest",
-    "seed:admin": "ts-node-dev src/shared/infra/typeorm/seed/admin.ts"
+    "seed:admin": "ts-node-dev src/shared/infra/typeorm/seed/admin.ts",
+    "container": "docker exec -it rentx /bin/bash"
   },
   "dependencies": {
     "@types/bcryptjs": "^2.4.2",
